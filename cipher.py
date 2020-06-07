@@ -57,3 +57,11 @@ for x in wordList:
     encoded = encode(x.upper())
     decoded = decode(encoded)
     print ("'" + x + "' decodes to '" + encoded + "' and back to '" + decoded + "'")
+    
+#outputs: 
+#    'Hello' decodes to 'QNUUX' and back to 'HELLO'
+#    'Ciphers are fun!' decodes to 'LRYQNABIJANIODWI' and back to 'CIPHERSZAREZFUNZ'
+#    'This Sunday is Valentine's day.' decodes to 'CQRBIBDWMJHIRBIEJUNWCRWNIBIMJHI' and back to 'THISZSUNDAYZISZVALENTINEZSZDAYZ'
+#    'CyWoods' decodes to 'LHFXXMB' and back to 'CYWOODS'
+#    'Computer Science 1 K' decodes to 'LXVYDCNAIBLRNWLNIIIT' and back to 'COMPUTERZSCIENCEZZZK'
+#    'John Wayne' decodes to 'SXQWIFJHWN' and back to 'JOHNZWAYNE'
